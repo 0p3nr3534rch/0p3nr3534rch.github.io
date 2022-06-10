@@ -1,4 +1,4 @@
-import localforage from 'localforage';
+import localforage from './localforage.js';
 import log from './logger.js';
 import { instantiateAny } from './wasm-utils.js';
 
