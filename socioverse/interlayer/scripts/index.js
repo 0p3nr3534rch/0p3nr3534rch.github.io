@@ -2,7 +2,7 @@ import MyWorker from './worker.js';
 //import localforage from 'localforage';
 //import BroadcastChannel from 'broadcast-channel';
 //import uuid4 from 'uuid/v4';
-import { v4 as uuid4 } from '../../../node_modules/uuid/dist/v4.js';
+import { v4 as uuid4 } from './v4.js';
 import log from './logger.js';
 
 const sleep = ms => new Promise(res => setTimeout(res, ms));
